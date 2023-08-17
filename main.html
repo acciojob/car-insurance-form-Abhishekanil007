@@ -8,8 +8,54 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+   <form action="your-submit-url" method="post">
+       
+<!--name -->
+	   
+	   <label for="name">Name:</label><br>
+	   <input type="text" id="name" name="name" required><br>
+	   
+<!-- email -->
+	   
+	  <br> <label for="email">Email:</label><br>
+	   <input type="email" id="email" name="email" required><br>
+	   
+<!-- gender -->
+	   
+	 <br>  <label>Gender:</label><br>
+	   <input type="radio" id="gender-m" name="gender" value="male" required>
+	   <label for="gender-m">Male</label><br>
+	   <input type="radio" id="gender-f" name="gender" value="female">
+	   <label for="gender-f">Female</label><br>
+
+<!-- carbrands -->
+	   
+	   <br><label for="cars">Car Brands:</label>
+	   <select id="cars" name="cars">
+		   <option>BMW</option>
+		   <option>Audi</option>
+		   <option>Mercedez</option>
+	   </select><br>
+
+<!-- 	   carage -->
+	   
+	  <br> <label for="carage">Car Age:</label><br>
+	   <input type="number" id="carage" name="carage" required><br>
+
+<!-- 	   dateofpurchase -->
+
+	   <br><label for="dop">Date of Purchase:</label><br>
+	   <input type="date" id="dop" name="dop" required><br>
+
+<!-- 	   password -->
+	   
+	  <br> <label for="password">Password:</label><br>
+	   <input type="password" id="password" name="password" required><br>
+
+	  <br> <button type="submit">Submit</button>
+	   
+ 
+   </form>
 
 </body>
 
